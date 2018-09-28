@@ -10,5 +10,6 @@ dependencies:
   - spacy 
   - torchvision
   - pytorch=0.3.0
+  - cudatoolkit=8.0
   - pip:
     - torchtext
