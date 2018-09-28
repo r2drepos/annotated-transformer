@@ -1,0 +1,14 @@
+name: annot_transformer
+channels:
+ - conda-forge
+ - pytorch
+dependencies:
+  - python=3.6
+  - seaborn
+  - numpy 
+  - matplotlib 
+  - spacy 
+  - torchvision
+  - pytorch=0.3.0
+  - pip:
+    - torchtext
